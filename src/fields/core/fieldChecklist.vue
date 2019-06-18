@@ -9,7 +9,7 @@
 				:key="getItemValue(item)"
 				:class="{'is-checked': isItemChecked(item)}">
 				<label>
-					<input :id="fieldID"
+					<input :id="fieldId"
 						type="checkbox"
 						:checked="isItemChecked(item)"
 						:disabled="disabled"
@@ -36,7 +36,7 @@
 					:key="getItemValue(item)"
 					:class="{'is-checked': isItemChecked(item)}">
 					<label>
-						<input :id="fieldID"
+						<input :id="fieldId"
 							type="checkbox"
 							:checked="isItemChecked(item)"
 							:disabled="disabled"

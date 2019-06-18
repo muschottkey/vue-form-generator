@@ -3,7 +3,7 @@
 		v-model="value"
 		:disabled="disabled"
 		:name="inputName"
-		:id="fieldID"
+		:id="fieldId"
 		:class="fieldClasses"
 		v-attributes="'input'">
 		<option v-if="!fieldOptions.hideNoneSelectedText"

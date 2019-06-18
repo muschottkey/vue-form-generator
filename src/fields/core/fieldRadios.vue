@@ -6,7 +6,7 @@
 			:key="getItemValue(item)"
 			:class="{'is-checked': isItemChecked(item)}"
 			v-attributes="'label'">
-			<input :id="fieldID"
+			<input :id="fieldId"
 				type="radio"
 				:disabled="disabled"
 				:name="id"

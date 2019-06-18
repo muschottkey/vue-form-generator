@@ -1,5 +1,5 @@
 <template>
-	<span :id="fieldID"
+	<span :id="fieldId"
 		:class="fieldClasses"
 		v-attributes="'label'"
 		v-text="value"></span>

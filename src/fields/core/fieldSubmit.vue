@@ -1,5 +1,5 @@
 <template>
-	<input :id="fieldID"
+	<input :id="fieldId"
 		type="submit"
 		:value="fieldOptions.buttonText"
 		@click="onClick"

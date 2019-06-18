@@ -1,7 +1,7 @@
 <template>
 	<textarea class="form-control"
 		v-model="value"
-		:id="fieldID"
+		:id="fieldId"
 		:class="fieldClasses"
 		:disabled="disabled"
 		:maxlength="fieldOptions.max"

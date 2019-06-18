@@ -5,11 +5,11 @@
 			:autocomplete="fieldOptions.autocomplete"
 			:disabled="disabled"
 			:name="inputName"
-			:id="fieldID">
+			:id="fieldId">
 		<span class="label"
 			:data-on="fieldOptions.textOn || 'On'"
 			:data-off="fieldOptions.textOff || 'Off'"
-			:for="fieldID"></span>
+			:for="fieldId"></span>
 		<span class="handle"></span>
 	</label>
 </template>
