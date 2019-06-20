@@ -2,7 +2,7 @@
 	<div class="wrapper"
 		v-attributes="'wrapper'">
 		<input class="form-control"
-			:id="fieldId"
+			:id="fieldID"
 			type="file"
 			:name="inputName"
 			@change="onChange"

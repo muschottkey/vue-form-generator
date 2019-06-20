@@ -2,7 +2,7 @@
 	<div class="wrapper"
 		v-attributes="'wrapper'">
 		<input class="form-control"
-			:id="fieldId"
+			:id="fieldID"
 			:type="inputType"
 			:value="value"
 			@input="onInput"

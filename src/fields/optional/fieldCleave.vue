@@ -7,7 +7,7 @@
 		:placeholder="placeholder"
 		:readonly="readonly"
 		:name="inputName"
-		:id="fieldId">
+		:id="fieldID">
 </template>
 
 <script>

@@ -8,7 +8,7 @@
 			:placeholder="placeholder"
 			:readonly="readonly"
 			:name="inputName"
-			:id="fieldId">
+			:id="fieldID">
 
 		<span class="input-group-addon">
 			<span class="glyphicon glyphicon-calendar"></span>

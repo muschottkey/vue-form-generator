@@ -1,5 +1,5 @@
 <template>
-	<input :id="fieldId"
+	<input :id="fieldID"
 		type="checkbox"
 		v-model="value"
 		:autocomplete="fieldOptions.autocomplete"

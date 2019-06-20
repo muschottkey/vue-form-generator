@@ -37,7 +37,7 @@ export default {
 		eventBus: {
 			type: Object
 		},
-		fieldId: {
+		fieldID: {
 			type: String
 		}
 	},
