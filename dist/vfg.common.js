@@ -9173,12 +9173,12 @@ var get_default = /*#__PURE__*/__webpack_require__.n(lodash_get);
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7be045fd-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/formGroup.vue?vue&type=template&id=1d624d19&
-var formGroupvue_type_template_id_1d624d19_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.fields)?_c(_vm.tag,{ref:"group",tag:"fieldset",class:[_vm.groupRowClasses, _vm.validationClass]},[_vm._t("group-legend",null,{group:_vm.group,groupLegend:_vm.groupLegend}),_vm._t("group-help",null,{group:_vm.group}),_vm._l((_vm.fields),function(field,index){return [(_vm.fieldVisible(field))?[(field.type === 'group')?[_c('form-group',{key:index,attrs:{"fields":field.fields,"group":field,"tag":_vm.getGroupTag(field),"model":_vm.model,"options":_vm.options,"errors":_vm.errors,"event-bus":_vm.eventBus},scopedSlots:_vm._u([{key:"group-legend",fn:function(slotProps){return [_vm._t("group-legend",null,{group:slotProps.group,groupLegend:slotProps.groupLegend})]}},{key:"group-help",fn:function(slotProps){return [_vm._t("group-help",null,{group:slotProps.group})]}},{key:"element",fn:function(slotProps){return [_vm._t("element",null,{field:slotProps.field,model:slotProps.model,options:slotProps.options,errors:slotProps.errors,eventBus:slotProps.eventBus})]}}])})]:[_vm._t("element",null,{field:field,model:_vm.model,options:_vm.options,errors:_vm.errors,eventBus:_vm.eventBus})]]:_vm._e()]})],2):_vm._e()}
-var formGroupvue_type_template_id_1d624d19_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7be045fd-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/formGroup.vue?vue&type=template&id=a70b44ca&
+var formGroupvue_type_template_id_a70b44ca_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.fields && _vm.groupVisible(_vm.group))?_c(_vm.tag,{ref:"group",tag:"fieldset",class:[_vm.groupRowClasses, _vm.validationClass]},[_vm._t("group-legend",null,{group:_vm.group,groupLegend:_vm.groupLegend}),_vm._t("group-help",null,{group:_vm.group}),_vm._l((_vm.fields),function(field,index){return [(_vm.fieldVisible(field))?[(field.type === 'group')?[_c('form-group',{key:index,attrs:{"fields":field.fields,"group":field,"tag":_vm.getGroupTag(field),"model":_vm.model,"options":_vm.options,"errors":_vm.errors,"event-bus":_vm.eventBus},scopedSlots:_vm._u([{key:"group-legend",fn:function(slotProps){return [_vm._t("group-legend",null,{group:slotProps.group,groupLegend:slotProps.groupLegend})]}},{key:"group-help",fn:function(slotProps){return [_vm._t("group-help",null,{group:slotProps.group})]}},{key:"element",fn:function(slotProps){return [_vm._t("element",null,{field:slotProps.field,model:slotProps.model,options:slotProps.options,errors:slotProps.errors,eventBus:slotProps.eventBus})]}}])})]:[_vm._t("element",null,{field:field,model:_vm.model,options:_vm.options,errors:_vm.errors,eventBus:_vm.eventBus})]]:_vm._e()]})],2):_vm._e()}
+var formGroupvue_type_template_id_a70b44ca_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/formGroup.vue?vue&type=template&id=1d624d19&
+// CONCATENATED MODULE: ./src/formGroup.vue?vue&type=template&id=a70b44ca&
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/defineProperty.js
 function _defineProperty(obj, key, value) {
@@ -9231,7 +9231,7 @@ var isString_default = /*#__PURE__*/__webpack_require__.n(isString);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/formGroup.vue?vue&type=script&lang=js&
 var cov_2fkt13gprz = function () {
   var path = "/Users/cmuchoki/Code/vue-form-generator/src/formGroup.vue",
-      hash = "87f32496452c1f0f840002a3cdd25108b08ee1aa",
+      hash = "5f048b3dd1245fe7fd50df60c5495bbb52ddb38a",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -9430,42 +9430,42 @@ var cov_2fkt13gprz = function () {
       },
       "19": {
         start: {
-          line: 153,
+          line: 154,
           column: 3
         },
         end: {
-          line: 157,
+          line: 156,
           column: 4
         }
       },
       "20": {
         start: {
-          line: 154,
+          line: 155,
           column: 4
         },
         end: {
-          line: 154,
-          column: 21
+          line: 155,
+          column: 61
         }
       },
       "21": {
         start: {
-          line: 156,
-          column: 4
+          line: 158,
+          column: 3
         },
         end: {
-          line: 156,
-          column: 20
+          line: 160,
+          column: 4
         }
       },
       "22": {
         start: {
-          line: 161,
-          column: 2
+          line: 159,
+          column: 4
         },
         end: {
-          line: 172,
-          column: 5
+          line: 159,
+          column: 16
         }
       },
       "23": {
@@ -9474,18 +9474,18 @@ var cov_2fkt13gprz = function () {
           column: 3
         },
         end: {
-          line: 171,
-          column: 6
+          line: 162,
+          column: 24
         }
       },
       "24": {
         start: {
-          line: 164,
-          column: 5
+          line: 166,
+          column: 3
         },
         end: {
-          line: 166,
-          column: 15
+          line: 170,
+          column: 4
         }
       },
       "25": {
@@ -9494,7 +9494,57 @@ var cov_2fkt13gprz = function () {
           column: 4
         },
         end: {
-          line: 170,
+          line: 167,
+          column: 21
+        }
+      },
+      "26": {
+        start: {
+          line: 169,
+          column: 4
+        },
+        end: {
+          line: 169,
+          column: 20
+        }
+      },
+      "27": {
+        start: {
+          line: 174,
+          column: 2
+        },
+        end: {
+          line: 185,
+          column: 5
+        }
+      },
+      "28": {
+        start: {
+          line: 175,
+          column: 3
+        },
+        end: {
+          line: 184,
+          column: 6
+        }
+      },
+      "29": {
+        start: {
+          line: 177,
+          column: 5
+        },
+        end: {
+          line: 179,
+          column: 15
+        }
+      },
+      "30": {
+        start: {
+          line: 180,
+          column: 4
+        },
+        end: {
+          line: 183,
           column: 6
         }
       }
@@ -9768,97 +9818,121 @@ var cov_2fkt13gprz = function () {
         name: "(anonymous_11)",
         decl: {
           start: {
-            line: 152,
+            line: 153,
             column: 2
           },
           end: {
-            line: 152,
+            line: 153,
             column: 3
           }
         },
         loc: {
           start: {
-            line: 152,
-            column: 21
+            line: 153,
+            column: 22
           },
           end: {
-            line: 158,
+            line: 163,
             column: 3
           }
         },
-        line: 152
+        line: 153
       },
       "12": {
         name: "(anonymous_12)",
         decl: {
           start: {
-            line: 160,
-            column: 1
+            line: 165,
+            column: 2
           },
           end: {
-            line: 160,
-            column: 2
+            line: 165,
+            column: 3
           }
         },
         loc: {
           start: {
-            line: 160,
-            column: 11
+            line: 165,
+            column: 21
+          },
+          end: {
+            line: 171,
+            column: 3
+          }
+        },
+        line: 165
+      },
+      "13": {
+        name: "(anonymous_13)",
+        decl: {
+          start: {
+            line: 173,
+            column: 1
           },
           end: {
             line: 173,
             column: 2
           }
         },
-        line: 160
-      },
-      "13": {
-        name: "(anonymous_13)",
-        decl: {
-          start: {
-            line: 161,
-            column: 39
-          },
-          end: {
-            line: 161,
-            column: 40
-          }
-        },
         loc: {
           start: {
-            line: 161,
-            column: 45
+            line: 173,
+            column: 11
           },
           end: {
-            line: 172,
-            column: 3
+            line: 186,
+            column: 2
           }
         },
-        line: 161
+        line: 173
       },
       "14": {
         name: "(anonymous_14)",
         decl: {
           start: {
-            line: 162,
+            line: 174,
+            column: 39
+          },
+          end: {
+            line: 174,
+            column: 40
+          }
+        },
+        loc: {
+          start: {
+            line: 174,
+            column: 45
+          },
+          end: {
+            line: 185,
+            column: 3
+          }
+        },
+        line: 174
+      },
+      "15": {
+        name: "(anonymous_15)",
+        decl: {
+          start: {
+            line: 175,
             column: 18
           },
           end: {
-            line: 162,
+            line: 175,
             column: 19
           }
         },
         loc: {
           start: {
-            line: 162,
+            line: 175,
             column: 24
           },
           end: {
-            line: 171,
+            line: 184,
             column: 4
           }
         },
-        line: 162
+        line: 175
       }
     },
     branchMap: {
@@ -10030,35 +10104,101 @@ var cov_2fkt13gprz = function () {
       "5": {
         loc: {
           start: {
-            line: 153,
+            line: 154,
             column: 3
           },
           end: {
-            line: 157,
+            line: 156,
             column: 4
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 153,
+            line: 154,
             column: 3
           },
           end: {
-            line: 157,
+            line: 156,
             column: 4
           }
         }, {
           start: {
-            line: 153,
+            line: 154,
             column: 3
           },
           end: {
-            line: 157,
+            line: 156,
             column: 4
           }
         }],
-        line: 153
+        line: 154
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 158,
+            column: 3
+          },
+          end: {
+            line: 160,
+            column: 4
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 158,
+            column: 3
+          },
+          end: {
+            line: 160,
+            column: 4
+          }
+        }, {
+          start: {
+            line: 158,
+            column: 3
+          },
+          end: {
+            line: 160,
+            column: 4
+          }
+        }],
+        line: 158
+      },
+      "7": {
+        loc: {
+          start: {
+            line: 166,
+            column: 3
+          },
+          end: {
+            line: 170,
+            column: 4
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 166,
+            column: 3
+          },
+          end: {
+            line: 170,
+            column: 4
+          }
+        }, {
+          start: {
+            line: 166,
+            column: 3
+          },
+          end: {
+            line: 170,
+            column: 4
+          }
+        }],
+        line: 166
       }
     },
     s: {
@@ -10087,7 +10227,12 @@ var cov_2fkt13gprz = function () {
       "22": 0,
       "23": 0,
       "24": 0,
-      "25": 0
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0
     },
     f: {
       "0": 0,
@@ -10104,7 +10249,8 @@ var cov_2fkt13gprz = function () {
       "11": 0,
       "12": 0,
       "13": 0,
-      "14": 0
+      "14": 0,
+      "15": 0
     },
     b: {
       "0": [0, 0],
@@ -10112,7 +10258,9 @@ var cov_2fkt13gprz = function () {
       "2": [0, 0],
       "3": [0, 0],
       "4": [0, 0],
-      "5": [0, 0]
+      "5": [0, 0],
+      "6": [0, 0],
+      "7": [0, 0]
     },
     _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
   },
@@ -10322,17 +10470,43 @@ var cov_2fkt13gprz = function () {
       cov_2fkt13gprz.s[18]++;
       return field.visible;
     },
-    getGroupTag: function getGroupTag(field) {
+    // Get visible prop of the group
+    groupVisible: function groupVisible(group) {
       cov_2fkt13gprz.f[11]++;
       cov_2fkt13gprz.s[19]++;
 
-      if (!isNil_default()(field.tag)) {
+      if (isFunction_default()(group.visible)) {
         cov_2fkt13gprz.b[5][0]++;
         cov_2fkt13gprz.s[20]++;
-        return field.tag;
+        return group.visible.call(this, this.model, group, this);
       } else {
         cov_2fkt13gprz.b[5][1]++;
-        cov_2fkt13gprz.s[21]++;
+      }
+
+      cov_2fkt13gprz.s[21]++;
+
+      if (isNil_default()(group.visible)) {
+        cov_2fkt13gprz.b[6][0]++;
+        cov_2fkt13gprz.s[22]++;
+        return true;
+      } else {
+        cov_2fkt13gprz.b[6][1]++;
+      }
+
+      cov_2fkt13gprz.s[23]++;
+      return group.visible;
+    },
+    getGroupTag: function getGroupTag(field) {
+      cov_2fkt13gprz.f[12]++;
+      cov_2fkt13gprz.s[24]++;
+
+      if (!isNil_default()(field.tag)) {
+        cov_2fkt13gprz.b[7][0]++;
+        cov_2fkt13gprz.s[25]++;
+        return field.tag;
+      } else {
+        cov_2fkt13gprz.b[7][1]++;
+        cov_2fkt13gprz.s[26]++;
         return this.tag;
       }
     }
@@ -10340,18 +10514,18 @@ var cov_2fkt13gprz = function () {
   created: function created() {
     var _this = this;
 
-    cov_2fkt13gprz.f[12]++;
-    cov_2fkt13gprz.s[22]++;
+    cov_2fkt13gprz.f[13]++;
+    cov_2fkt13gprz.s[27]++;
     this.eventBus.$on("field-validated", function () {
-      cov_2fkt13gprz.f[13]++;
-      cov_2fkt13gprz.s[23]++;
+      cov_2fkt13gprz.f[14]++;
+      cov_2fkt13gprz.s[28]++;
 
       _this.$nextTick(function () {
         var _this$validationClass;
 
-        cov_2fkt13gprz.f[14]++;
-        var containFieldWithError = (cov_2fkt13gprz.s[24]++, _this.$refs.group.querySelector(".form-element." + get_default()(_this.options, "validationErrorClass", "error")) !== null);
-        cov_2fkt13gprz.s[25]++;
+        cov_2fkt13gprz.f[15]++;
+        var containFieldWithError = (cov_2fkt13gprz.s[29]++, _this.$refs.group.querySelector(".form-element." + get_default()(_this.options, "validationErrorClass", "error")) !== null);
+        cov_2fkt13gprz.s[30]++;
         _this.validationClass = (_this$validationClass = {}, _defineProperty(_this$validationClass, get_default()(_this.options, "validationErrorClass", "error"), containFieldWithError), _defineProperty(_this$validationClass, get_default()(_this.options, "validationSuccessClass", "valid"), !containFieldWithError), _this$validationClass);
       });
     });
@@ -10464,8 +10638,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   src_formGroupvue_type_script_lang_js_,
-  formGroupvue_type_template_id_1d624d19_render,
-  formGroupvue_type_template_id_1d624d19_staticRenderFns,
+  formGroupvue_type_template_id_a70b44ca_render,
+  formGroupvue_type_template_id_a70b44ca_staticRenderFns,
   false,
   null,
   null,
