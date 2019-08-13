@@ -244,7 +244,7 @@ export default {
 				this.eventBus.$on("field-deregistering", () => {
 					// console.warn("Fields were deleted during validation process");
 					this.eventBus.$emit("fields-validation-terminated", formErrors);
-					resolve(formErrors);
+					reject(formErrors);
 				});
 
 				const counter = (isValid, fieldErrors, uid) => {
