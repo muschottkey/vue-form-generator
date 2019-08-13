@@ -1,6 +1,6 @@
 
 /**
- * vue-form-generator 3.0.0-beta.8
+ * vue-form-generator 3.0.0-beta.7
  * https://github.com/vue-generators/vue-form-generator/
  * Released under the MIT License.
  */
@@ -9434,7 +9434,7 @@ var es6_function_name = __webpack_require__("7f7f");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3f0d5f90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/formGenerator.vue?vue&type=template&id=150498b0&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3f0d5f90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/formGenerator.vue?vue&type=template&id=d75421da&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.schema != null)?_c('div',{staticClass:"vue-form-generator"},[_c('form-group',{attrs:{"tag":_vm.tag,"fields":_vm.fields,"model":_vm.model,"options":_vm.options,"errors":_vm.errors,"event-bus":_vm.eventBus},scopedSlots:_vm._u([{key:"group-legend",fn:function(ref){
 var group = ref.group;
 var groupLegend = ref.groupLegend;
@@ -9457,7 +9457,7 @@ return [_vm._t("errors",[_c('div',{staticClass:"errors help-block"},_vm._l((chil
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/formGenerator.vue?vue&type=template&id=150498b0&
+// CONCATENATED MODULE: ./src/formGenerator.vue?vue&type=template&id=d75421da&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.promise.js
 var es6_promise = __webpack_require__("551c");
@@ -13551,7 +13551,7 @@ formElement_component.options.__file = "formElement.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/formGenerator.vue?vue&type=script&lang=js&
 var cov_2dbjbhth4i = function () {
   var path = "/Users/cmuchoki/Code/vue-form-generator/src/formGenerator.vue",
-      hash = "9833c5659f10a63530dba873b4a0b74a95333eef",
+      hash = "f8d2287a55f436f54cd579feccb687849b0f4e82",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -14015,7 +14015,7 @@ var cov_2dbjbhth4i = function () {
         },
         end: {
           line: 268,
-          column: 27
+          column: 26
         }
       },
       "46": {
@@ -15733,7 +15733,7 @@ var cov_2dbjbhth4i = function () {
             } else {
               cov_2dbjbhth4i.b[10][1]++;
               cov_2dbjbhth4i.s[45]++;
-              resolve(formErrors);
+              reject(formErrors);
             }
           } else {
             cov_2dbjbhth4i.b[8][1]++;
