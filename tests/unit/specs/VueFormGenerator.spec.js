@@ -724,12 +724,12 @@ describe("VueFormGenerator.vue", () => {
 			model.name = "Ab";
 			wrapper.setData({ model: { ...model } });
 			form.validate().then(
+				() => {},
 				(errors) => {
 					expect(errors[0].error).to.be.equal("The length of text is too small! Current: 2, Minimum: 3");
 					expect(form.errors).to.be.length(1);
 					done();
-				},
-				() => {},
+				}
 			);
 		});
 
@@ -784,12 +784,12 @@ describe("VueFormGenerator.vue", () => {
 			model.name = "Ab";
 			wrapper.setData({ model: { ...model } });
 			form.validate().then(
+				() => {},
 				(errors) => {
 					expect(errors[0].error).to.be.equal("The length of text is too small! Current: 2, Minimum: 3");
 					expect(form.errors).to.be.length(1);
 					done();
-				},
-				() => {},
+				}
 			);
 		});
 

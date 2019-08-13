@@ -265,7 +265,7 @@ export default {
 						if (isValid) {
 							resolve();
 						} else {
-							resolve(formErrors);
+							reject(formErrors);
 						}
 					}
 				};
