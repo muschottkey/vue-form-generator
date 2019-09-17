@@ -1,6 +1,6 @@
 
 /**
- * vue-form-generator 3.0.0-beta.7
+ * vue-form-generator 3.0.0-beta.8
  * https://github.com/vue-generators/vue-form-generator/
  * Released under the MIT License.
  */
